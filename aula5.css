@@ -37,3 +37,12 @@ a{
     text-decoration: none;
     font-variant: normal;
 }
+
+.destaque {
+    color: black;
+    font-weight: bold;
+}
+
+#titulo {
+    color: black;
+}
