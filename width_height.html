@@ -25,6 +25,7 @@
         h2{
             background-color: bisque;
             margin-top: 56px;
+            border-bottom: 2px solid black;
         }
 
         .destaque{
@@ -36,12 +37,29 @@
             height: 100px;
         }
 
-        .padding { 
+        .padding{ 
             padding: 26px;
         }
 
         .margin{
             margin: 50px 0 20px 100px;
+        }
+
+        .borda{
+            border-top: 5px solid blue;
+            border-right: 15px dotted green;
+            border-bottom: 10px dashed red;
+            border-left: 30px groove red;
+            /* border: 5px solid red; */
+            padding: 10px;
+        }
+
+        .borda2{
+            border: 5px dashed rebeccapurple;
+        }
+
+        .outline{
+            outline: 5px dashed rebeccapurple;
         }
     </style>
 </head>
@@ -66,7 +84,12 @@
     
     <h2>border</h2>
     <p>Lorem ipsum dolor sit amet.</p>
-    <p class="destaque">Lorem ipsum dolor sit amet.</p>
+    <p class="destaque borda">Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <h2>outline</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p class="destaque borda2 outline">Lorem ipsum dolor sit amet.</p>
     <p>Lorem ipsum dolor sit amet.</p>
    
 
