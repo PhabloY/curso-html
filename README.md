@@ -1,4 +1,3 @@
-# curso HTML
 # Curso de HTML
 
 Este repositório contém o material do curso de HTML, abrangendo desde os conceitos básicos até técnicas avançadas. É ideal para iniciantes que desejam aprender a construir páginas web estruturadas.
