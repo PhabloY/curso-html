@@ -1,16 +1,16 @@
 body{
     font-family: sans-serif;
     background-color: whitesmoke;
+    width: 80%;
+    margin: auto;
 }
 
 h1{
     color: rgb(0, 0, 0);
     text-align: center;
     background-color: navajowhite;
-    border: 1px solid black;
-    /* box-sizing: border-box; */
     margin: auto;
-    width: 80%;
+    
     
 }
 
@@ -20,15 +20,12 @@ h2{
     border-bottom: 2px solid black;
     margin: auto;
     margin-top: 3%;
-    width: 80%;
-    text-align: left;
     padding: 8px;
 }
 
 p{
     color: black;
-    padding-left: 10%;
-    width: 80%;
+    width: 100%;
 }
 
 b{
@@ -38,7 +35,8 @@ b{
 
 .p1{
     text-align: center;
-    padding-right: 10%;
+    margin-top: 0;
+    background-color: navajowhite;
 }
 
 .p3{
@@ -50,10 +48,12 @@ b{
     font-weight: bold;
 }
 
-ul li{
+ul{
+    padding-left: 0%;
+}
+
+li{
     list-style-position: inside;
-    padding-left: 80px;
-    margin: auto;
 }
 
 a{
@@ -71,4 +71,40 @@ a:active{
 
 a:hover{
     color: blue;
+}
+
+.a{
+    display: inline-block;
+    padding: 10px;
+    background-color: ivory;
+    border: 1px solid black;
+    text-align: center; 
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: ivory;
+    border: 1px solid black;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: salmon;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.menu a:active {
+    transform: scale(1);
+    background-color: deepskyblue;
 }
